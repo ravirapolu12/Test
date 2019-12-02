@@ -1,0 +1,5 @@
+n=int(input())
+sumofN=(n*(n+1))/2
+sumofNsquares=(n*(n+1)*(2n+1))/6
+diff=(sumofN * sumofN) - sumofNsquares
+print(diff)
